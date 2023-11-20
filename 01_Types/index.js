@@ -36,3 +36,11 @@ demo = null;
 console.log(demo);
 // use typeof to interrogate what type a variable is
 console.log(typeof muppet);
+// BAD - DO NOT DO
+let myexamplevariableisaverylongword;
+// GOOD - camelCase (capitalise the first letter of every new word)
+let myExampleVariableIsAVeryLongWord;
+
+const myConst = 27;
+// cannot reassign a constant
+myConst = 28;
