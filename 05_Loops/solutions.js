@@ -38,7 +38,7 @@ for (let label = 0; label <= 5; label++) {
 
 
 
-let nums = [123,4353,313,46,234,2534,34,3454,35,4,54,54,5,43,4,5,345,345,43,53,5,345,34,34,5];
+let nums = [123, 4353, 313, 46, 234, 2534, 34, 3454, 35, 4, 54, 54, 5, 43, 4, 5, 345, 345, 43, 53, 5, 345, 34, 34, 5];
 
 for (let iterator = 0; iterator < nums.length; iterator++) {
     if (nums[iterator] % 3 === 0 && nums[iterator] % 5 === 0) {
@@ -67,7 +67,7 @@ for (let index = nums.length - 1; index >= 0; index--) {
 
 }
 
-const array = ['a','b','c','d','e','f'];
+const array = ['a', 'b', 'c', 'd', 'e', 'f'];
 
 
 for (let index = 0; index < array.length; index++) {
@@ -81,7 +81,7 @@ for (let char of array) {
 }
 
 // product (times them all together)
-const multiplesOf2 = [2,4,6,8,10,12,14,16,18,20];
+const multiplesOf2 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 
 let product = 1;
 
@@ -97,3 +97,40 @@ for (let index = 0; index < multiplesOf2.length; index++) {
 //     product = product * number;
 // }
 console.log("Product:", product);
+
+
+// Wed Ex. 1
+let sum = 0;
+for (let num = 1; num <= 10; num++) {
+    sum = sum + num;
+    console.log("Num:", num);
+    console.log("Sum:", sum);
+}
+
+console.log("Total:", sum);
+
+// Wed Ex 2.
+
+const nums2 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+sum = 0;
+
+for (let index = 0; index < nums2.length; index++) {
+    const num = nums2[index];
+    sum += num;
+    console.log("Num:", num);
+    console.log("Sum:", sum);
+}
+
+console.log("Total:", sum);
+
+// Wed Ex 3.
+
+sum = 0;
+
+for (const number of nums2) {
+    sum = sum + number;
+    console.log("Number:", number);
+    console.log("Sum:", sum);
+}
+
+console.log("Total:", sum);
