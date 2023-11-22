@@ -156,7 +156,7 @@ let fiveP = 0;
 let twoP = 0;
 let oneP = 0;
 
-debugger;
+
 while (amount - cost >= 50) {
     amount -= 50;
     fifties++;
