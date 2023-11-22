@@ -66,3 +66,22 @@ for (let index = nums.length - 1; index >= 0; index--) {
     }
 
 }
+
+const array = ['a','b','c','d','e','f'];
+
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    console.log(element);
+}
+
+console.log("For-of-loop");
+for (let char of array) {
+    console.log("Char:", char);
+}
+
+const multiplesOf2 = [2,4,6,8,10,12,14,16,18,20];
+
+for (let number of multiplesOf2) {
+    console.log("Number:", number);
+}
