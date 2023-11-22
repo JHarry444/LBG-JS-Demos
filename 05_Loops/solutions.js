@@ -80,8 +80,20 @@ for (let char of array) {
     console.log("Char:", char);
 }
 
+// product (times them all together)
 const multiplesOf2 = [2,4,6,8,10,12,14,16,18,20];
 
-for (let number of multiplesOf2) {
-    console.log("Number:", number);
+let product = 1;
+
+for (let index = 0; index < multiplesOf2.length; index++) {
+    const number = multiplesOf2[index];
+    console.log("Num:", number);
+    product = product * number;
+    console.log("Product:", product);
 }
+
+// for (let number of multiplesOf2) {
+//     console.log("Number:", number);
+//     product = product * number;
+// }
+console.log("Product:", product);
