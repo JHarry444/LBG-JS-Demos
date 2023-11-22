@@ -134,3 +134,98 @@ for (const number of nums2) {
 }
 
 console.log("Total:", sum);
+
+
+// Wed. Extension:
+console.log("Abandon all hope ye who enter here.");
+
+
+let amount = 200;
+const cost = 46.32;
+
+let fifties = 0;
+let twenties = 0;
+let tenners = 0;
+let fivers = 0;
+let twoPounds = 0;
+let onePounds = 0;
+let fiftyP = 0;
+let twentyP = 0;
+let tenP = 0;
+let fiveP = 0;
+let twoP = 0;
+let oneP = 0;
+
+debugger;
+while (amount - cost >= 50) {
+    amount -= 50;
+    fifties++;
+}
+
+while (amount - cost >= 20) {
+    amount -= 20;
+    twenties++;
+}
+
+while (amount - cost >= 10) {
+    amount -= 10;
+    tenners++;
+}
+
+while (amount - cost >= 5) {
+    amount -= 5;
+    fivers++;
+}
+
+while (amount - cost >= 2) {
+    amount -= 2;
+    twoPounds++;
+}
+
+while (amount - cost >= 1) {
+    amount -= 1;
+    onePounds++;
+}
+
+while (amount - cost >= 0.5) {
+    amount -= 0.5;
+    fiftyP++;
+}
+
+while (amount - cost >= 0.2) {
+    amount -= 0.2;
+    twentyP++;
+}
+
+
+while (amount - cost >= 0.1) {
+    amount -= 0.1;
+    tenP++;
+}
+
+while (amount - cost >= 0.05) {
+    amount -= 0.05;
+    fiveP++;
+}
+while (amount - cost >= 0.02) {
+    amount -= 0.02;
+    twoP++;
+}
+while (amount - cost >= 0.01) {
+    amount -= 0.01;
+    oneP++;
+}
+
+
+console.log("Fifties:", fifties);
+console.log("Twenties:", twenties);
+console.log("Tenners:", tenners);
+console.log("Fivers:", fivers);
+console.log("Two Pounds:", twoPounds);
+console.log("One Pounds:", onePounds);
+console.log("Fifty p's:", fiftyP);
+console.log("Twenty p's:", twentyP);
+console.log("Ten p's:", tenP);
+console.log("Five p's:", fiveP);
+console.log("Two p's:", twoP);
+console.log("One p's:", oneP);
