@@ -37,7 +37,7 @@ function product(a, b) {
     console.log(a * b);
 }
 
-sum(12, 24);
+const mySum = sum(12, 24);
 
 // write functions to; subtract, multiply and divide 2 numbers
 
