@@ -30,7 +30,11 @@ function fizzBuzz(num) {
 }
 
 function sum(num, num2) {
-    console.log("SUM:", num + num2);
+    return num + num2; // the OUTPUT of this function is num + num2
+}
+
+function product(a, b) {
+    console.log(a * b);
 }
 
 sum(12, 24);
