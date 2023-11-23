@@ -6,6 +6,7 @@
     <title>DOM Manipulation</title>
     <!-- Only loads the script after page loads -->
     <script src="index.js" defer></script>
+    <script src="solutions.js" defer></script>
     <style>
         .light {
             background-color: white;
@@ -16,9 +17,31 @@
             background-color: black;
             color: white;
         }
+
+        @keyframes spinner {
+            100% {
+                transform: rotate("360deg");
+            }
+        }
+
     </style>
 </head>
 <body>
-    
+    <section>
+        <h2>Selectors</h2>
+        <p>Bloop 1</p>
+        <p>Bloop 2</p>
+        <p>Bloop 3</p>
+        <p id="myBloop">Bloop 4</p>
+        <p>Bloop 5</p>
+        <p>Bloop 6</p>
+        <p>Bloop 7</p>
+        <p>Bloop 8</p>
+        <p>Bloop 9</p>
+        <p>Bloop 10</p>
+        <div id="output">
+
+        </div>
+    </section>
 </body>
 </html>
