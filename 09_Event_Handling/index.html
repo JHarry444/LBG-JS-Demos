@@ -5,15 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Handling</title>
     <script src="index.js" defer></script>
+
+    <style>
+        .light {
+            color: black;
+            background-color: white;
+        }
+
+        .dark{ 
+            color: white;
+            background-color: black;
+        }
+    </style>
 </head>
-<body>
-    <button onclick="hello()">Hello</button>
-    <input type="text" oninput="hello()">
+<body class="light">
+    <button onclick="hello('yo!')">Hello</button>
+    <input type="text" oninput="hello('oninput')">
     <br>
     <label for="">Focus</label>
-    <input type="text" onfocus="hello()">
+    <input type="text" onfocus="hello('onfocus')">
     <br>
     <label for="">Blur</label>
-    <input type="text" onblur="hello()">
+    <input type="text" onblur="hello('onblur')">
+    <br>
+    <button onclick="toggle()">TOGGLE</button>
+    <br>
+    <button onclick="addText()">Add Text</button>
+    <p id="myP"></p>
 </body>
 </html>
